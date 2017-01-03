@@ -35,5 +35,20 @@ public class Node {
 
   }
   
+  /**
+   * Adds a child to the "rightmost" location, preserving prior locations.
+   *
+   * @param child node to add
+   * @return 0 if fine, 1 if not
+   */
+  public int addChild(Node child) {
+
+   if (child == null) return 1;
+
+   // adds to end of list. use add(index, element) for other locations
+   children.add(child);
+
+   return 0;
+  }
 
 }

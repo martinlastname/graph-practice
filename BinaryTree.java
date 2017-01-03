@@ -7,4 +7,12 @@ public class BinaryTree {
 
   }
 
+  public int trickleDown(Node node) {
+
+    
+    
+
+    return 0;
+  }
+
 }
